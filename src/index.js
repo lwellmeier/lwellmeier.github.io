@@ -1,22 +1,47 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactDOM from 'react-dom';
+import Router from 'react-dom/client';
 
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
-    <Routes>
-        <Route index element={<App />} />
-        <Route path="Contact" element={<Contact />} />
-        <Route path="Home" element={<Home />} />
-    </Routes>
-  </BrowserRouter>
+import { amber } from '@mui/material/colors';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Typography } from '@mui/material';
+
+
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: amber[500],
+    },
+    secondary: {
+      main: '#F2CC8F',
+    }
+
+  }
+});
+
+
+ReactDOM.render(
+  <React.StrictMode>
+  <HashRouter>
+  <Routes>
+  <Route path="/" element={
+  <ThemeProvider theme={theme}><App /></ThemeProvider>
+  } />
+
+  <Route path="/about" component={<Home />} />
+  </Routes> 
+  </HashRouter> 
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

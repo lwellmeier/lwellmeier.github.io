@@ -1,0 +1,37 @@
+*{
+    --green: #1db954;
+    --dark2: #212121;
+    --dark: #121212;
+    --grey: #535353;
+    --white: #b3b3b3;
+}
+html{
+    padding: 0;
+    margin: 0;
+    color: var(--green);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--dark2), var(--dark));
+}
+
+section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    width: 75%;
+    padding: 2rem;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    box-shadow: 1px 2px var(--grey);
+}
+
+.hero{
+    height: 100vh;
+}

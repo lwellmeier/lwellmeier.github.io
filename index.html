@@ -1,45 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Leon's Portfolio">
-    <title>Leon Wellmeier</title>
+    <title>ZAM Hausverwaltung</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+    <script src="script.js"></script>
 </head>
 <body>
+
     <header>
-        Header
+        <!-- <h1>ZAM Hausverwaltung</h1> -->
+        <div><img src='./public/Logo_mit_Siegel.png' alt="" sizes="" width="64px" height="64px" srcset=""></div>
+        <nav>
+            <a href="#unternehmensvorstellung">Unternehmensvorstellung</a>
+            <a href="#unsere-werte">Unsere Werte</a>
+            <a href="#dienstleistungen">Dienstleistungen</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+        <div>MENU</div>
     </header>
-    <main>
-        <section class="hero" id="hero">
+
+    <section id="welcome">
+        <h1>Welcome</h1>
+    </section>
+
+    <section id="unternehmensvorstellung" class="section-light">
+        <h2>Über ZAM Hausverwaltung - Ihre Hausverwaltung in München</h2>
+        <p>
+            Herzlich willkommen bei ZAM Hausverwaltung. Ihrer kompetenten Hausverwaltung in
+            München. Wir sind Ihr verlässlicher Partner für die professionelle Verwaltung von Immobilien.
+            Unser Ziel ist es, den Wert Ihrer Immobilie nachhalig zu steigern und für ein sorgenfreies
+            Mieterlebnis zu sorgen.</p>
+        <img src="https://example.com/hausverwaltung.jpg" alt="Hausverwaltung">
+        <h2>Warum ZAM Hausverwaltung?</h2>
+        <p>Als erfahrene Hausverwaltung in München verstehen wir, dass jede Immobilie einzigartig ist.
+            Deshalb bieten wir maßgeschneiderte Verwaltungsdienstleistungen, die auf die spezifischen
+            Anforderungen von Eigentümern und Mietern abgestimmt sind. Unsere Werte: Transparenz,
+            Zuverlässigkeit und persönlicher Service – für eine langfrisEge, erfolgreiche Zusammenarbeit.</p>
+    </section>
+
+    <section id="unsere-werte" class="section-dark">
+        <h2>Unsere Werte</h2>
+        <div class="showcase">Test</div>
+        <div class="cards">
             <div class="card">
-                <h1>Welcome,<br>I'm Leon Wellmeier<br>A Software Developer</h1>
-                <img src="media/lw.jpg" alt="Leon Wellmeier" width="100px" height="110">
+                <img src="https://example.com/icon-transparency.png" alt="Transparenz" class="icon-small">
+                <h3>Transparenz</h3>
+                <p>Wir legen großen Wert auf eine transparente Kommunikation und nachvollziehbare Prozesse in allen Aspekten unserer Arbeit.</p>
             </div>
-        </section>
-        <section class="me">
-            <h1>Who Am I?</h1>
-        </section>
-        <section class="service">
-            <h1>Products</h1>
-        </section>
-        <section class="skills">
-            <h1>My Skills & Knowloedge</h1>
-        </section>
-        <section class="carrier">
-            <h1>My Carrier so far...</h1>
-        </section>
-        <section class="projects">
-            <h1>Projects</h1>
-        </section>
-        <section class="contact">
-            <h1>Any Questions or Request?</h1>
-        </section>
-    </main>
+            <div class="card">
+                <img src="https://example.com/icon-reliability.png" alt="Zuverlässigkeit" class="icon-small">
+                <h3>Zuverlässigkeit</h3>
+                <p>Unsere langjährige Erfahrung und unser Engagement garantieren Ihnen eine zuverlässige Betreuung Ihrer Immobilie.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/icon-service.png" alt="Persönlicher Service" class="icon-small">
+                <h3>Persönlicher Service</h3>
+                <p>Bei uns stehen Sie als Kunde im Mittelpunkt – wir bieten Ihnen maßgeschneiderte Lösungen für Ihre Bedürfnisse.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="dienstleistungen" class="section-light">
+        <h2>Unsere Dienstleistungen</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://example.com/icon-weg.png" alt="WEG-Verwaltung" class="icon">
+                <h3>WEG-Verwaltung</h3>
+                <p>Umfassende Verwaltung von Wohnungseigentümergemeinschaften, einschließlich der Vorbereitung und Durchführung von Eigentümerversammlungen, der Erstellung von Wirtschaftsplänen und der ordnungsgemäßen Instandhaltung Ihrer Immobilie.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/icon-rent.png" alt="Mietverwaltung" class="icon">
+                <h3>Mietverwaltung</h3>
+                <p>Von der Mietersuche über die Mietverträge bis zur Nebenkostenabrechnung – wir kümmern uns um alle administrativen und technischen Belange Ihrer Mietobjekte.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/icon-maintenance.png" alt="Instandhaltungsmanagement" class="icon">
+                <h3>Instandhaltungsmanagement</h3>
+                <p>Regelmäßige Inspektionen, schnelle Schadenbehebung und vorausschauende Instandhaltungsplanung – wir sorgen dafür, dass Ihre Immobilie immer in einem einwandfreien Zustand ist.</p>
+            </div>
+            <div class="card">
+                <img src="https://example.com/icon-commercial.png" alt="Gewerbeverwaltung" class="icon">
+                <h3>Gewerbeverwaltung</h3>
+                <p>Effiziente Verwaltung Ihrer Gewerbeimmobilien mit umfassendem Mietermanagement und regelmäßigen Inspektionen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class='section-dark' id="taetigkeiten">
+        <div class="t-cards">
+            <h1>Tätigkeiten im Überblick</h1>
+            <div class="t-card left">
+                <h3>01 I WEG Verwaltung</h3>
+                <p>
+                    Ihr Objekt wird vollumfänglich und serviceorientiert nach den Aufgaben des §27 Absatz 1 und 2 WEG
+                    verwaltet.<br> Nachfolgend erhalten Sie eine Zusammenfassung unserer Leistungen im Bereich der
+                    Wirtschafts- und Vermögensverwaltung einer Wohneigentumsgemeinschaft:<br>
+                    • Verwaltung der gemeinschaftlichen Gelder und Rücklagen<br>
+                    • Sachliche, sowie rechnerische Prüfung der anfallenden Ausgaben<br>
+                    • Proaktive Bearbeitung und Begleitung bei Versicherungsfällen<br>
+                    • Erstellung der Jahresabrechnung, sowie der Einzelabrechnung<br>
+                    • Vertrauensvolle und aktive Zusammenarbeit mit den Beiräten<br>
+                    • Abhaltung der Eigentümerversammlung<br>
+                    • Technische Kontrolle der Objekte<br>
+                    • Auftragsvergabe und Überwachung <br>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
+                        </ul>
+                    </p>
+            </div>
+            <div class="t-card right">
+                <h3>02 I Mieterverwaltung</h3>
+                <p>
+                    
+Im Bereich der Mietverwaltung übernehmen wir die anfallenden Aufgaben die sich aus dem laufenden
+Mietverhältnis ergeben.<br> Hierunter fallen auszugsweise nachfolgende Tätigkeiten:<br>
+• Betreuung und Beratung der Eigentümer in anfallenden Fragestellungen<br>
+• Neuvermietung und vollumfängliche Prüfung der Mietbewerber<br>
+• Anfertigung von Mietverträgen<br>
+• Erstellung der Nebenkostenabrechnung<br>
+• serviceorientierte Begleitung im Mietverhältnis<br>
+• Vertretung der Eigentümer in den Themen der Haus- und Grundstücksverwaltung<br>
+• Begleitung bei Schäden, sowie Instandhaltungsmaßnahmen<br>
+• Laufende Kontenführung<br>
+                    </p>
+            </div>
+            <div class="t-card left">
+                <h3>03 I Sondereigentumsverwaltung</h3>
+                <p>
+Ebenfalls bieten wir die Betreuung Ihres Sondereigentums an.<br> Dabei übernehmen wir die
+kaufmännische, die technische sowie die rechtliche Betreuung Ihrer Immobilie. <br>Nachfolgend der
+Auszug:<br>
+• Durchführung und Abwicklung des Mietverhältnisses<br>
+• Kontenführung für den Wohnungseigentümer<br>
+• Vereinnahmung und Überwachung der Mietzahlung<br>
+• Begleitung bei Mietanpassungen<br>
+• Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
+• Erstellung der jährlichen Betriebskostenabrechnung<br>
+• Proaktive Begleitung bei Schäden<br>
+• Korrespondenz zwischen Eigentümer und Mieter<br>
+                    </p>
+            </div>
+            <div class="t-card right">
+                <h3>04 I Gewerbeverwaltung</h3>
+                <p>               
+Unser Angebot wird durch die Gewerbeverwaltung abgerundet.<br> Zur effizienten Verwaltung Ihrer
+Gewerbeobjekte bieten wir Ihnen nachfolgenden Leistungsauszug:<br>
+• Laufendes Gewerbemanagement, sowie regelmäßige Inspektion des Objekts<br>
+• Betreuung der Mieter in anfallenden Aufgaben, sowie der Fragen aus dem laufenden
+Mietverhältnis<br>
+• Vereinnahmung und Überwachung der Mietzahlung<br>
+• Begleitung der Neuvermietung<br>
+• Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
+• Abwicklung aller anfallenden Zahlungen<br>
+• Vollumfängliche Betreuung im Schadenmanagement<br>
+• Ansprechpartner für Eigentümer und Mieter<br>
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-light">
+        <h3>Objektübergreifender Leistungskatalog</h3>
+        <p>
+            
+• Betreuung der Eigentümer in den Belangen rund um die Hausverwaltung<br>
+• Kontrolle und Einhaltung der vereinbarten Hausordnung<br>
+• Interessensvertretung gegenüber Dritten, Verbänden und Vereinen<br>
+• Schlichtungsstelle bei Streitigkeiten innerhalb der Gemeinschaft<br>
+• Buchführung und Abrechnung<br>
+• Durchführung von Mahn- und Klageverfahren<br>
+• Unterstützungsleistung bei der Vermietung und Verpachtung<br>
+• Objektbesichtigung in Zuge der Neuvermietung<br>
+• Korrespondenz zwischen den Behörden, sowie Versicherungsgesellschaften<br>
+• Einleitung von technischen Sofortmaßnahmen in Notfällen
+        </p>
+
+        <p>
+            Sofern Sie unser Leistungsangebot überzeugt hat, freuen wir uns auf die Auftragserteilung zur
+            umfassenden Betreuung Ihrer Liegenschaft im Bereich der Hausverwaltung.</p>
+    </section>
+
+    <section id="kontakt" class="section-dark">
+        <h2>Kontakt</h2>
+        <p>ZAM Hausverwaltung<br>
+        Inhaber Soliman Zaman<br>
+        Zillertalstraße 70<br>
+        81373 München<br>
+        E-mail: <a href="mailto:zam_hausverwaltung@yahoo.de">zam_hausverwaltung@yahoo.de</a></p>
+        <form action="mailto:zam_hausverwaltung@yahoo.de" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+
     <footer>
-        Footer
+        <p>&copy; 2024 ZAM Hausverwaltung. Alle Rechte vorbehalten.</p>
     </footer>
 
 </body>

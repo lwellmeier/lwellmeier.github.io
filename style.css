@@ -1,37 +1,223 @@
+/* Colors */
 *{
-    --green: #1db954;
-    --dark2: #212121;
-    --dark: #121212;
-    --grey: #535353;
-    --white: #b3b3b3;
-}
-html{
-    padding: 0;
-    margin: 0;
-    color: var(--green);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body{
-    height: 100vh;
-    background: linear-gradient(to bottom right, var(--dark2), var(--dark));
+
+    --light-bg: #f7f7f7;
+    --light-bg2: #ECF0F1;
+
+    --dark-bg: #2C3E50;
+
+    --light-text: white;
+    --dark-text: #333;
+
+    --accent: #2980B9;
+
 }
 
-section {
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+
+    
+    background-image: url("./public/bgtest.jpg");
+    background-size: cover;
+}
+
+header,
+footer {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Cards */
+
+.showcase {
+
     display: flex;
-    align-content: center;
-    justify-content: center;
+    border-radius: 2rem;
+    border: 1px var(--dark-bg);
+    box-shadow:  3px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 75%;
-    padding: 2rem;
-    display: flex;
-    align-content: space-between;
-    justify-content: space-evenly;
+    width: 45%;
+    /* flex: 0; */
+
     border-radius: 2rem;
-    box-shadow: 1px 2px var(--grey);
+    padding: 2rem;
+
+    box-shadow:  6px 12px rgba(0, 0, 0, 0.1);
+    /* box-shadow: #BDC3C7 1px ; */
 }
 
-.hero{
-    height: 100vh;
+
+/* Sections */
+
+section {
+    padding: 30px;
 }
+
+.section-light {
+    background-color: var(--light-bg2);
+    color: var(--dark-text);
+}
+
+.section-dark {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+/* Navigation */
+header{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 1000;
+
+
+    width: 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome */
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    color: var(--light-text);
+
+    /* background-image: url(../public/bgtest.jpg); */
+    background-image: -webkit-linear-gradient(var(--dark-bg), var(--accent));
+}
+
+/* Unternehmensvorstellung */
+
+/* Unsere Werte */
+
+/* Dienstleistungen */
+
+/* Vorteile mit Uns */
+
+/* Tätigkeiten */
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #BDC3C7;
+}
+
+button {
+    padding: 12px;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3498DB;
+}
+
+
+
+/* 
+
+#unternehmensvorstellung {
+    fill-opacity: 10%;
+}
+
+#taetigkeiten .cards .card {
+    width: 80vw;
+}
+
+h2 {
+    color: #2980B9;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #ECF0F1;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #2C3E50;
+}
+
+
+
+
+
+.section-dark .card {
+    color: #333;
+}
+
+.card img,
+.icon {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.icon-small {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+} */

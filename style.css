@@ -23,8 +23,9 @@ body {
     padding: 0;
 
     
-    background-image: url("./public/bgtest.jpg");
+    background-image: url("./public/test.jpg");
     background-size: cover;
+    
 }
 
 header,
@@ -56,6 +57,8 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+
 
 .card {
     width: 15vw;
@@ -131,9 +134,15 @@ nav a:hover {
 
     /* background-image: url(../public/bgtest.jpg); */
     background-image: -webkit-linear-gradient(var(--dark-bg), var(--accent));
+    /* background-image: url(public/test.jpg); */
+    /* opacity: 0.2; */
 }
 
 /* Unternehmensvorstellung */
+
+#unternehmensvorstellung {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
 
 /* Unsere Werte */
 /* #unsere-werte {
@@ -253,4 +262,12 @@ li::before {
   content: "\f00c"; /* FontAwesome Unicode */
   font-family: FontAwesome;
   font-size: small;
+}
+
+
+@media (max-width: 600px)  {
+    .card { 
+        width: 100%;
+        height: fit-content;
+     }
 }

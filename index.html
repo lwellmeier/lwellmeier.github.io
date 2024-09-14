@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZAM Hausverwaltung</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/fontawesome/css/solid.css" rel="stylesheet" />
+
+    <script defer src="./fontawesome/js/solid.js"></script>
+    <script defer src="./fontawesome/js/brands.js"></script>
+    <script defer src="./fontawesome/js/fontawesome.js"></script>
+    <script defer src="./fontawesome/js/regular.js"></script>
 </head>
+
 <body>
 
     <header>
+
         <!-- <h1>ZAM Hausverwaltung</h1> -->
         <div><img src='./public/Logo_mit_Siegel.png' alt="" sizes="" width="64px" height="64px" srcset=""></div>
         <nav>
@@ -42,22 +54,21 @@
 
     <section id="unsere-werte" class="section-dark">
         <h2>Unsere Werte</h2>
-        <div class="showcase">Test</div>
-        <div class="cards">
-            <div class="card">
-                <img src="https://example.com/icon-transparency.png" alt="Transparenz" class="icon-small">
+        <div class="showcase">
+            <div class="value">
+                <i class="fa-solid fa-10x fa-chalkboard-user"></i>
                 <h3>Transparenz</h3>
-                <p>Wir legen großen Wert auf eine transparente Kommunikation und nachvollziehbare Prozesse in allen Aspekten unserer Arbeit.</p>
             </div>
-            <div class="card">
-                <img src="https://example.com/icon-reliability.png" alt="Zuverlässigkeit" class="icon-small">
+            <div>|</div>
+            <div class="value">
+                <i class="fa-solid fa-10x fa-handshake fa-"></i>
                 <h3>Zuverlässigkeit</h3>
-                <p>Unsere langjährige Erfahrung und unser Engagement garantieren Ihnen eine zuverlässige Betreuung Ihrer Immobilie.</p>
             </div>
-            <div class="card">
-                <img src="https://example.com/icon-service.png" alt="Persönlicher Service" class="icon-small">
+            <div>|</div>
+
+            <div class="value">
+                <i class="fa-solid fa-10x fa-comments"></i>
                 <h3>Persönlicher Service</h3>
-                <p>Bei uns stehen Sie als Kunde im Mittelpunkt – wir bieten Ihnen maßgeschneiderte Lösungen für Ihre Bedürfnisse.</p>
             </div>
         </div>
     </section>
@@ -68,22 +79,27 @@
             <div class="card">
                 <img src="https://example.com/icon-weg.png" alt="WEG-Verwaltung" class="icon">
                 <h3>WEG-Verwaltung</h3>
-                <p>Umfassende Verwaltung von Wohnungseigentümergemeinschaften, einschließlich der Vorbereitung und Durchführung von Eigentümerversammlungen, der Erstellung von Wirtschaftsplänen und der ordnungsgemäßen Instandhaltung Ihrer Immobilie.</p>
+                <p hidden>Umfassende Verwaltung von Wohnungseigentümergemeinschaften, einschließlich der Vorbereitung und
+                    Durchführung von Eigentümerversammlungen, der Erstellung von Wirtschaftsplänen und der
+                    ordnungsgemäßen Instandhaltung Ihrer Immobilie.</p>
             </div>
             <div class="card">
                 <img src="https://example.com/icon-rent.png" alt="Mietverwaltung" class="icon">
                 <h3>Mietverwaltung</h3>
-                <p>Von der Mietersuche über die Mietverträge bis zur Nebenkostenabrechnung – wir kümmern uns um alle administrativen und technischen Belange Ihrer Mietobjekte.</p>
+                <p>Von der Mietersuche über die Mietverträge bis zur Nebenkostenabrechnung – wir kümmern uns um alle
+                    administrativen und technischen Belange Ihrer Mietobjekte.</p>
             </div>
             <div class="card">
                 <img src="https://example.com/icon-maintenance.png" alt="Instandhaltungsmanagement" class="icon">
                 <h3>Instandhaltungsmanagement</h3>
-                <p>Regelmäßige Inspektionen, schnelle Schadenbehebung und vorausschauende Instandhaltungsplanung – wir sorgen dafür, dass Ihre Immobilie immer in einem einwandfreien Zustand ist.</p>
+                <p>Regelmäßige Inspektionen, schnelle Schadenbehebung und vorausschauende Instandhaltungsplanung – wir
+                    sorgen dafür, dass Ihre Immobilie immer in einem einwandfreien Zustand ist.</p>
             </div>
             <div class="card">
                 <img src="https://example.com/icon-commercial.png" alt="Gewerbeverwaltung" class="icon">
                 <h3>Gewerbeverwaltung</h3>
-                <p>Effiziente Verwaltung Ihrer Gewerbeimmobilien mit umfassendem Mietermanagement und regelmäßigen Inspektionen.</p>
+                <p>Effiziente Verwaltung Ihrer Gewerbeimmobilien mit umfassendem Mietermanagement und regelmäßigen
+                    Inspektionen.</p>
             </div>
         </div>
     </section>
@@ -92,79 +108,72 @@
         <div class="t-cards">
             <h1>Tätigkeiten im Überblick</h1>
             <div class="t-card left">
-                <h3>01 I WEG Verwaltung</h3>
+                <h3>01 | WEG Verwaltung</h3>
                 <p>
                     Ihr Objekt wird vollumfänglich und serviceorientiert nach den Aufgaben des §27 Absatz 1 und 2 WEG
                     verwaltet.<br> Nachfolgend erhalten Sie eine Zusammenfassung unserer Leistungen im Bereich der
                     Wirtschafts- und Vermögensverwaltung einer Wohneigentumsgemeinschaft:<br>
-                    • Verwaltung der gemeinschaftlichen Gelder und Rücklagen<br>
-                    • Sachliche, sowie rechnerische Prüfung der anfallenden Ausgaben<br>
-                    • Proaktive Bearbeitung und Begleitung bei Versicherungsfällen<br>
-                    • Erstellung der Jahresabrechnung, sowie der Einzelabrechnung<br>
-                    • Vertrauensvolle und aktive Zusammenarbeit mit den Beiräten<br>
-                    • Abhaltung der Eigentümerversammlung<br>
-                    • Technische Kontrolle der Objekte<br>
-                    • Auftragsvergabe und Überwachung <br>
-                    </p>
-                    <p>
-                        <ul>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                            <li>Verwaltung der gemeinschaftlichen Gelder und Rücklagen</li>
-                        </ul>
-                    </p>
+                    <br>
+                    <i class="fa-solid fa-check"></i> Verwaltung der gemeinschaftlichen Gelder und Rücklagen<br>
+                    <i class="fa-solid fa-check"></i> Sachliche, sowie rechnerische Prüfung der anfallenden Ausgaben<br>
+                    <i class="fa-solid fa-check"></i> Proaktive Bearbeitung und Begleitung bei Versicherungsfällen<br>
+                    <i class="fa-solid fa-check"></i> Erstellung der Jahresabrechnung, sowie der Einzelabrechnung<br>
+                    <i class="fa-solid fa-check"></i> Vertrauensvolle und aktive Zusammenarbeit mit den Beiräten<br>
+                    <i class="fa-solid fa-check"></i> Abhaltung der Eigentümerversammlung<br>
+                    <i class="fa-solid fa-check"></i> Technische Kontrolle der Objekte<br>
+                    <i class="fa-solid fa-check"></i> Auftragsvergabe und Überwachung <br>
+                </p>
             </div>
             <div class="t-card right">
-                <h3>02 I Mieterverwaltung</h3>
+                <h3>02 | Mieterverwaltung</h3>
                 <p>
-                    
-Im Bereich der Mietverwaltung übernehmen wir die anfallenden Aufgaben die sich aus dem laufenden
-Mietverhältnis ergeben.<br> Hierunter fallen auszugsweise nachfolgende Tätigkeiten:<br>
-• Betreuung und Beratung der Eigentümer in anfallenden Fragestellungen<br>
-• Neuvermietung und vollumfängliche Prüfung der Mietbewerber<br>
-• Anfertigung von Mietverträgen<br>
-• Erstellung der Nebenkostenabrechnung<br>
-• serviceorientierte Begleitung im Mietverhältnis<br>
-• Vertretung der Eigentümer in den Themen der Haus- und Grundstücksverwaltung<br>
-• Begleitung bei Schäden, sowie Instandhaltungsmaßnahmen<br>
-• Laufende Kontenführung<br>
-                    </p>
+
+                    Im Bereich der Mietverwaltung übernehmen wir die anfallenden Aufgaben die sich aus dem laufenden
+                    Mietverhältnis ergeben.<br> Hierunter fallen auszugsweise nachfolgende Tätigkeiten:<br>
+                    <br>
+                    <i class="fa-solid fa-check"></i> Betreuung und Beratung der Eigentümer in anfallenden Fragestellungen<br>
+                    <i class="fa-solid fa-check"></i> Neuvermietung und vollumfängliche Prüfung der Mietbewerber<br>
+                    <i class="fa-solid fa-check"></i> Anfertigung von Mietverträgen<br>
+                    <i class="fa-solid fa-check"></i> Erstellung der Nebenkostenabrechnung<br>
+                    <i class="fa-solid fa-check"></i> serviceorientierte Begleitung im Mietverhältnis<br>
+                    <i class="fa-solid fa-check"></i> Vertretung der Eigentümer in den Themen der Haus- und Grundstücksverwaltung<br>
+                    <i class="fa-solid fa-check"></i> Begleitung bei Schäden, sowie Instandhaltungsmaßnahmen<br>
+                    <i class="fa-solid fa-check"></i> Laufende Kontenführung<br>
+                </p>
             </div>
             <div class="t-card left">
-                <h3>03 I Sondereigentumsverwaltung</h3>
+                <h3>03 | Sondereigentumsverwaltung</h3>
                 <p>
-Ebenfalls bieten wir die Betreuung Ihres Sondereigentums an.<br> Dabei übernehmen wir die
-kaufmännische, die technische sowie die rechtliche Betreuung Ihrer Immobilie. <br>Nachfolgend der
-Auszug:<br>
-• Durchführung und Abwicklung des Mietverhältnisses<br>
-• Kontenführung für den Wohnungseigentümer<br>
-• Vereinnahmung und Überwachung der Mietzahlung<br>
-• Begleitung bei Mietanpassungen<br>
-• Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
-• Erstellung der jährlichen Betriebskostenabrechnung<br>
-• Proaktive Begleitung bei Schäden<br>
-• Korrespondenz zwischen Eigentümer und Mieter<br>
-                    </p>
+                    Ebenfalls bieten wir die Betreuung Ihres Sondereigentums an.<br> Dabei übernehmen wir die
+                    kaufmännische, die technische sowie die rechtliche Betreuung Ihrer Immobilie. <br>Nachfolgend der
+                    Auszug:<br>
+                    <br>
+                    <i class="fa-solid fa-check"></i> Durchführung und Abwicklung des Mietverhältnisses<br>
+                    <i class="fa-solid fa-check"></i> Kontenführung für den Wohnungseigentümer<br>
+                    <i class="fa-solid fa-check"></i> Vereinnahmung und Überwachung der Mietzahlung<br>
+                    <i class="fa-solid fa-check"></i> Begleitung bei Mietanpassungen<br>
+                    <i class="fa-solid fa-check"></i> Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
+                    <i class="fa-solid fa-check"></i> Erstellung der jährlichen Betriebskostenabrechnung<br>
+                    <i class="fa-solid fa-check"></i> Proaktive Begleitung bei Schäden<br>
+                    <i class="fa-solid fa-check"></i> Korrespondenz zwischen Eigentümer und Mieter<br>
+                </p>
             </div>
             <div class="t-card right">
-                <h3>04 I Gewerbeverwaltung</h3>
-                <p>               
-Unser Angebot wird durch die Gewerbeverwaltung abgerundet.<br> Zur effizienten Verwaltung Ihrer
-Gewerbeobjekte bieten wir Ihnen nachfolgenden Leistungsauszug:<br>
-• Laufendes Gewerbemanagement, sowie regelmäßige Inspektion des Objekts<br>
-• Betreuung der Mieter in anfallenden Aufgaben, sowie der Fragen aus dem laufenden
-Mietverhältnis<br>
-• Vereinnahmung und Überwachung der Mietzahlung<br>
-• Begleitung der Neuvermietung<br>
-• Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
-• Abwicklung aller anfallenden Zahlungen<br>
-• Vollumfängliche Betreuung im Schadenmanagement<br>
-• Ansprechpartner für Eigentümer und Mieter<br>
-                    </p>
+                <h3>04 | Gewerbeverwaltung</h3>
+                <p>
+                    Unser Angebot wird durch die Gewerbeverwaltung abgerundet.<br> Zur effizienten Verwaltung Ihrer
+                    Gewerbeobjekte bieten wir Ihnen nachfolgenden Leistungsauszug:<br>
+                    <br>
+                    <i class="fa-solid fa-check"></i> Laufendes Gewerbemanagement, sowie regelmäßige Inspektion des Objekts<br>
+                    <i class="fa-solid fa-check"></i> Betreuung der Mieter in anfallenden Aufgaben, sowie der Fragen aus dem laufenden
+                    Mietverhältnis<br>
+                    <i class="fa-solid fa-check"></i> Vereinnahmung und Überwachung der Mietzahlung<br>
+                    <i class="fa-solid fa-check"></i> Begleitung der Neuvermietung<br>
+                    <i class="fa-solid fa-check"></i> Beauftragung von Wartungs-, Sanierungs- oder Reparaturarbeiten<br>
+                    <i class="fa-solid fa-check"></i> Abwicklung aller anfallenden Zahlungen<br>
+                    <i class="fa-solid fa-check"></i> Vollumfängliche Betreuung im Schadenmanagement<br>
+                    <i class="fa-solid fa-check"></i> Ansprechpartner für Eigentümer und Mieter<br>
+                </p>
             </div>
         </div>
     </section>
@@ -172,17 +181,17 @@ Mietverhältnis<br>
     <section class="section-light">
         <h3>Objektübergreifender Leistungskatalog</h3>
         <p>
-            
-• Betreuung der Eigentümer in den Belangen rund um die Hausverwaltung<br>
-• Kontrolle und Einhaltung der vereinbarten Hausordnung<br>
-• Interessensvertretung gegenüber Dritten, Verbänden und Vereinen<br>
-• Schlichtungsstelle bei Streitigkeiten innerhalb der Gemeinschaft<br>
-• Buchführung und Abrechnung<br>
-• Durchführung von Mahn- und Klageverfahren<br>
-• Unterstützungsleistung bei der Vermietung und Verpachtung<br>
-• Objektbesichtigung in Zuge der Neuvermietung<br>
-• Korrespondenz zwischen den Behörden, sowie Versicherungsgesellschaften<br>
-• Einleitung von technischen Sofortmaßnahmen in Notfällen
+
+            <i class="fa-solid fa-check"></i> Betreuung der Eigentümer in den Belangen rund um die Hausverwaltung<br>
+            <i class="fa-solid fa-check"></i> Kontrolle und Einhaltung der vereinbarten Hausordnung<br>
+            <i class="fa-solid fa-check"></i> Interessensvertretung gegenüber Dritten, Verbänden und Vereinen<br>
+            <i class="fa-solid fa-check"></i> Schlichtungsstelle bei Streitigkeiten innerhalb der Gemeinschaft<br>
+            <i class="fa-solid fa-check"></i> Buchführung und Abrechnung<br>
+            <i class="fa-solid fa-check"></i> Durchführung von Mahn- und Klageverfahren<br>
+            <i class="fa-solid fa-check"></i> Unterstützungsleistung bei der Vermietung und Verpachtung<br>
+            <i class="fa-solid fa-check"></i> Objektbesichtigung in Zuge der Neuvermietung<br>
+            <i class="fa-solid fa-check"></i> Korrespondenz zwischen den Behörden, sowie Versicherungsgesellschaften<br>
+            <i class="fa-solid fa-check"></i> Einleitung von technischen Sofortmaßnahmen in Notfällen
         </p>
 
         <p>
@@ -193,13 +202,16 @@ Mietverhältnis<br>
     <section id="kontakt" class="section-dark">
         <h2>Kontakt</h2>
         <p>ZAM Hausverwaltung<br>
-        Inhaber Soliman Zaman<br>
-        Zillertalstraße 70<br>
-        81373 München<br>
-        E-mail: <a href="mailto:zam_hausverwaltung@yahoo.de">zam_hausverwaltung@yahoo.de</a></p>
+            <i class="fa-solid fa-location-dot"></i><br>
+            <a href="https://g.co/kgs/D7kAq2M">Inhaber Soliman Zaman<br>
+                Zillertalstraße 70<br>
+                81373 München<br></a>
+            <i class="fa-solid fa-at"></i> E-mail: <a href="mailto:zam_hausverwaltung@yahoo.de">zam_hausverwaltung@yahoo.de</a><br>
+            <i class="fa-solid fa-phone"></i> Tel: <a href="tel:+015788637962"></a><br>
+        </p>
         <form action="mailto:zam_hausverwaltung@yahoo.de" method="post" enctype="text/plain">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name"  required>
+            <input type="text" id="name" name="name" required>
 
             <label for="email">E-Mail:</label>
             <input type="email" id="email" name="email" required>
@@ -216,4 +228,5 @@ Mietverhältnis<br>
     </footer>
 
 </body>
+
 </html>

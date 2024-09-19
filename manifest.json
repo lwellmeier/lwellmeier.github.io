@@ -1,0 +1,12 @@
+{
+    "short_name": "ZAM",
+    "name": "ZAM Hausverwaltung",
+    "categories": ["mieten","Wohnung", "Haus", "Verwaltung", "München"],
+    "description": "Homepage der ZAM Hausverwaltung in München",
+    "content": "",
+    "icons": [
+    ],
+    "start_url": ".",
+    "display": "standalone"
+  }
+  

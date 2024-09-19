@@ -12,7 +12,7 @@
     --accent: #2980B9;
     
     scroll-behavior: smooth;
-
+    
 }
 /* General Styling */
 body {
@@ -55,7 +55,16 @@ footer {
     border: 1px var(--dark-bg);
     box-shadow:  3px 6px rgba(0, 0, 0, 0.1);
     font-size: x-large;
+    
 
+}
+
+.value {
+    transition: ease-in 0.5s;
+}
+
+.value:hover {
+    font-size: xx-large;
 }
 
 
@@ -86,9 +95,28 @@ a.anchor {
 
     box-shadow:  3px 6px var(--dark-bg);
     /* box-shadow: #BDC3C7 1px ; */
+    
+    transition: ease-in 0.2s;
 }
 
+.card:hover {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    border-color: var(--light-bg2);
+}
 
+.t-card {
+
+    padding: 2rem;
+    
+    transition: ease-in 0.2s;
+}
+
+.t-card:hover{
+    background-color: var(--light-bg2);
+    color: var(--dark-text);
+    border-color: var(--dark-bg);
+}
 /* Sections */
 
 section {
@@ -210,6 +238,7 @@ button:hover {
 .intro-card {
 
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 2rem;
     /* filter: opacity(0.5) */
 
 }

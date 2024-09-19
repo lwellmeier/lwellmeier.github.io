@@ -20,14 +20,18 @@ body {
     box-sizing: content-box;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: var(--light-bg);
+    background-image: url(public/Logo_mit_Siegel.png);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-color: var(--light-bg); */
     color: var(--dark-text);
     margin: 0;
     padding: 0;
 
     
-    background-image: url("./public/test.jpg");
-    background-size: cover;
+    /* background-image: url("./public/test.jpg"); */
+    /* background-size: cover; */
     
 }
 
@@ -77,10 +81,10 @@ a.anchor {
     
     /* flex: 0; */
 
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 2rem;
 
-    box-shadow:  6px 12px rgba(0, 0, 0, 0.1);
+    box-shadow:  3px 6px var(--dark-bg);
     /* box-shadow: #BDC3C7 1px ; */
 }
 
@@ -88,11 +92,11 @@ a.anchor {
 /* Sections */
 
 section {
-    padding: 0.5rem;
+    padding: 1.5rem;
 }
 
 .section-light {
-    background-color: var(--light-bg2);
+    background-color: rgba(255, 255, 255, 0.8);
     color: var(--dark-text);
 }
 
@@ -131,21 +135,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Welcome */
 
-#welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    color: var(--light-text);
-
-    /* background-image: url(../public/bgtest.jpg); */
-    background-image: -webkit-linear-gradient(var(--dark-bg), var(--accent));
-    /* background-image: url(public/test.jpg); */
-    /* opacity: 0.2; */
-}
 
 /* Unternehmensvorstellung */
 
@@ -208,13 +198,22 @@ button:hover {
 }
 
 
-
-
-/* 
-
 #unternehmensvorstellung {
-    fill-opacity: 10%;
+    min-height: 50%;
+    background-image: url(public/abc.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+    filter: grayscale(0.5);
+    }
+
+
+.intro-card {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    /* filter: opacity(0.5) */
+
 }
+    /* 
 
 #taetigkeiten .cards .card {
     width: 80vw;
@@ -264,7 +263,9 @@ h2 {
     height: 50px;
     margin-bottom: 10px;
 } */
-
+#logo {
+    /* scale: 1.5; */
+}
 
 li::before {
   

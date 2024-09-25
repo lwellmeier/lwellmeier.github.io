@@ -46,6 +46,11 @@ footer {
     text-align: center;
 }
 
+header{
+    box-shadow: 0 0 10px 0 var(--dark-text);
+    
+}
+
 /* Cards */
 
 .showcase {

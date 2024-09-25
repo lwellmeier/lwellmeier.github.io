@@ -280,8 +280,12 @@ li::before {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
+    justify-content: center;
+}
+.partners img {
+    scale: 0.5;
 }
 
 
@@ -317,9 +321,14 @@ li::before {
 }
 
      #unternehmensvorstellung div{
-        width: 100%;
+        width: auto;
      }
-
+     #unternehmensvorstellung img{
+        width: 66%;
+     }
+     .partners img {
+        scale: 0.25;
+     }
     
 }
 

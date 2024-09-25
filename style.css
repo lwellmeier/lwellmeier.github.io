@@ -204,7 +204,8 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex: 1 0 50%;
+    /* flex: 1 0 50%; */
+    text-align: center;
 }
 
 form {

@@ -22,8 +22,9 @@ body {
     line-height: 1.6;
     background-image: url(public/Logo_mit_Siegel.png);
     background-position: center;
-    background-size: 100%;
+    background-size: 33%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     /* background-color: var(--light-bg); */
     color: var(--dark-text);
     margin: 0;
@@ -124,7 +125,7 @@ section {
 }
 
 .section-light {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     color: var(--dark-text);
 }
 
@@ -165,11 +166,13 @@ nav a:hover {
 
 
 
+#uebergreifend{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 /* Unternehmensvorstellung */
 
-#unternehmensvorstellung {
-    /* background-color: rgba(0, 0, 0, 0.1); */
-}
+
 
 /* Unsere Werte */
 /* #unsere-werte {
@@ -239,61 +242,6 @@ button:hover {
 
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2rem;
-    /* filter: opacity(0.5) */
-
-}
-    /* 
-
-#taetigkeiten .cards .card {
-    width: 80vw;
-}
-
-h2 {
-    color: #2980B9;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.card {
-    background-color: #ECF0F1;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 1;
-    min-width: 250px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-    color: #2C3E50;
-}
-
-
-
-
-
-.section-dark .card {
-    color: #333;
-}
-
-.card img,
-.icon {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.icon-small {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-} */
-#logo {
-    /* scale: 1.5; */
 }
 
 li::before {
@@ -302,6 +250,14 @@ li::before {
   content: "\f00c"; /* FontAwesome Unicode */
   font-family: FontAwesome;
   font-size: small;
+}
+
+.partners{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 

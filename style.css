@@ -164,7 +164,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-
+#impressum a {
+    color: var(--dark-text);
+}
 
 #uebergreifend{
     background-color: rgba(255, 255, 255, 1);
@@ -173,7 +175,7 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-#uebergreifend img {
+#unternehmensvorstellung img {
     size: 0.5;
 }
 
@@ -235,8 +237,22 @@ button:hover {
     background-color: #3498DB;
 }
 
-
 #unternehmensvorstellung {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+    align-items: center;
+    
+	hyphens: auto; 
+	text-align: justify
+}
+
+#unternehmensvorstellung div {
+    width: 45%;
+}
+
+#uebergreifend {
     min-height: 50%;
     background-image: url(public/abc.jpg);
     background-size: cover;
@@ -249,6 +265,7 @@ button:hover {
 
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2rem;
+    color: var(--light-text);
 }
 
 li::before {
@@ -293,6 +310,14 @@ li::before {
     
      #kontakt {
         flex-direction: column;
+     }
+
+#unternehmensvorstellung {
+    flex-direction: column-reverse;
+}
+
+     #unternehmensvorstellung div{
+        width: 100%;
      }
 
     

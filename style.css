@@ -62,7 +62,7 @@ header{
     border-radius: 2rem;
     border: 1px var(--dark-bg);
     box-shadow:  3px 6px rgba(0, 0, 0, 0.1);
-    font-size: x-large;
+    font-size: large;
     
 
 }
@@ -212,7 +212,7 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     /* flex: 1 0 50%; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 form {
@@ -317,7 +317,9 @@ li::before {
      }
 
      .showcase{
-        font-size: medium;
+        font-size: small;
+        text-align: center;
+        hyphens: none;
      }
     
      #kontakt {

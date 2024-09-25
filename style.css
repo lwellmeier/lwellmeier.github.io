@@ -326,8 +326,11 @@ li::before {
      #unternehmensvorstellung img{
         width: 66%;
      }
-     .partners img {
+     .partners a {
         scale: 0.25;
+     }
+     .partners img {
+        scale: 1.5;
      }
     
 }

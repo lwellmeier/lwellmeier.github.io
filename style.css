@@ -16,6 +16,8 @@
 }
 /* General Styling */
 body {
+    hyphens: auto; 
+	text-align: justify;
     overflow-x: hidden;
     box-sizing: content-box;
     font-family: Arial, sans-serif;

@@ -1,356 +1,170 @@
-/* Colors */
-*{
-
-    --light-bg: #f7f7f7;
-    --light-bg2: #ECF0F1;
-
-    --dark-bg: #2C3E50;
-
-    --light-text: white;
-    --dark-text: #333;
-
-    --accent: #2980B9;
-    
-    scroll-behavior: smooth;
-    
-}
-/* General Styling */
-body {
-    hyphens: auto; 
-	text-align: justify;
-    overflow-x: hidden;
-    box-sizing: content-box;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-image: url(public/Logo_mit_Siegel.png);
-    background-position: center;
-    background-size: 33%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    /* background-color: var(--light-bg); */
-    color: var(--dark-text);
+/* General Styles */
+* {
     margin: 0;
     padding: 0;
-
-    
-    /* background-image: url("./public/test.jpg"); */
-    /* background-size: cover; */
-    
-}
-
-header,
-footer {
-    background-color: var(--dark-bg);
-    color: var(--light-text);
-    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #e5f4e3;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-}
-
-header{
-    box-shadow: 0 0 10px 0 var(--dark-text);
-    
-}
-
-/* Cards */
-
-.showcase {
-    padding: 0.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    border-radius: 2rem;
-    border: 1px var(--dark-bg);
-    box-shadow:  3px 6px rgba(0, 0, 0, 0.1);
-    font-size: large;
-    
-
-}
-
-.value {
-    transition: ease-in 0.5s;
-}
-
-.value:hover {
-    font-size: xx-large;
-}
-
-
-.cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -40vh;
-    visibility: hidden;
-}
-
-.card {
-    width: 15vw;
-    min-height: 25vh;
-    text-overflow: ellipsis;
-    
-    /* flex: 0; */
-
-    border-radius: 1rem;
-    padding: 2rem;
-
-    box-shadow:  3px 6px var(--dark-bg);
-    /* box-shadow: #BDC3C7 1px ; */
-    
-    transition: ease-in 0.2s;
-}
-
-.card:hover {
-    background-color: var(--dark-bg);
-    color: var(--light-text);
-    border-color: var(--light-bg2);
-}
-
-.t-card {
-
-    padding: 2rem;
-    
-    transition: ease-in 0.2s;
-}
-
-.t-card:hover{
-    background-color: var(--light-bg2);
-    color: var(--dark-text);
-    border-color: var(--dark-bg);
-}
-/* Sections */
-
-section {
-    padding: 1.5rem;
-}
-
-.section-light {
-    background-color: rgba(255, 255, 255, 1);
-    color: var(--dark-text);
-}
-
-.section-dark {
-    background-color: var(--dark-bg);
-    color: var(--light-text);
-}
-
-/* Navigation */
-header{
-    position: sticky;
-    top: 0;
-    position: -webkit-sticky;
-    z-index: 1000;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-a {
-    text-decoration: none;
-    color: var(--light-text);
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-#impressum a {
-    color: var(--dark-text);
-}
-
-#uebergreifend{
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-#unternehmensvorstellung img {
-    size: 0.5;
-}
-
-/* Unternehmensvorstellung */
-
-
-
-/* Unsere Werte */
-/* #unsere-werte {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-/* Dienstleistungen */
-
-/* Vorteile mit Uns */
-
-/* Tätigkeiten */
-
-/* Contact */
-
-#kontakt {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* flex: 1 0 50%; */
-    /* text-align: center; */
-}
-
-form {
-    width: 75%;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: auto;
-}
-
-input,
-textarea {
-    margin-bottom: 15px;
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid #BDC3C7;
-}
-
-button {
-    padding: 12px;
-    background-color: #2980B9;
-    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero-section p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero-section .button {
+    background-color: #8ac9a1;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
-}
-
-button:hover {
-    background-color: #3498DB;
-}
-
-#unternehmensvorstellung {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: ; */
-    align-items: center;
-    
-	hyphens: auto; 
-	text-align: justify
-}
-
-#unternehmensvorstellung div {
-    width: 45%;
-}
-
-#uebergreifend {
-    min-height: 50%;
-    background-image: url(public/abc.jpg);
-    background-size: cover;
-    background-position: 50% 75%;
-    filter: grayscale(0.5);
-    }
-
-
-.intro-card {
-
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 2rem;
-    color: var(--light-text);
-}
-
-li::before {
+    margin-top: 20px;
+    text-decoration: none;
+  }
   
-    /* content: url('./fontawesome/svgs/solid/circle-check.svg'); */
-  content: "\f00c"; /* FontAwesome Unicode */
-  font-family: FontAwesome;
-  font-size: small;
-}
-
-.partners{
-
+  /* Section Titles */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Career Section */
+  .career-section {
+    background-color: #fff;
+    padding: 50px 0;
+    color: #555;
+  }
+  
+  .career-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+  }
+  
+  .project-grid {
     display: flex;
-    flex-direction: row;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    justify-content: center;
-}
-.partners img {
-    scale: 0.5;
-}
-
-
-
-@media (max-width: 1580px)  {
-    .card { 
-        width: 40%;
-        height: fit-content;
-     }
-    
-     #kontakt {
-        flex-direction: column;
-     }
-
-    
-}
-@media (max-width: 800px )  {
-    .card { 
-        width: 100%;
-        height: fit-content;
-     }
-
-     .showcase{
-        font-size: small;
-        text-align: center;
-        hyphens: none;
-     }
-    
-     #kontakt {
-        flex-direction: column;
-     }
-
-#unternehmensvorstellung {
-    flex-direction: column-reverse;
-}
-
-     #unternehmensvorstellung div{
-        width: auto;
-     }
-     #unternehmensvorstellung img{
-        width: 66%;
-     }
-     .partners a {
-        scale: 0.25;
-     }
-     .partners img {
-        scale: 1.5;
-     }
-    
-}
-
-@media (max-width: 600px )  {
-
-
-     .showcase{
-        font-size: small;
-     }    
-}
-
-
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .project-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    flex-basis: 45%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .project-item h3 {
+    color: #333;
+  }
+  
+  /* Interests Section */
+  .interests-section {
+    background-color: #eae7dc;
+    padding: 50px 0;
+    color: #555;
+  }
+  
+  .interests-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-section .button {
+    background-color: #8ac9a1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-section .download-cv {
+    display: inline-block;
+    margin-top: 20px;
+    color: #555;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .project-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-item {
+      flex-basis: 90%;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1rem;
+    }
+  }
+  

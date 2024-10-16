@@ -1,7 +1,9 @@
 <p align="center" width="100%">
     <img width="33%" src="https://media.licdn.com/dms/image/v2/C5603AQE4Ajy6TxSrrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646602598053?e=2147483647&v=beta&t=xo_hFIbMc3HFLHW21TzxeXKCMYagYeX06I5cUGAHRVE">
 </p>
+
 # Leon Wellmeier 
+
 [LinkedIn](https://de.linkedin.com/in/leon-wellmeier-97a2911a0) | [GitHub](https://github.com/lwellmeier) | E-Mail: [lwellmeier.official@gmail.com](http://mailto:lwellmeier.official@gmail.com "lwellmeier.official@gmail.com") | Telefon: +49 015788637962 
 
 ---

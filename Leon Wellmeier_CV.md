@@ -35,12 +35,17 @@ _Januar 2023 – voraussichtlich Januar 2025 | Gütersloh, Deutschland_
 ## **Ausbildung**
 
 ### **IHK-zertifizierter Fachinformatiker für Daten- und Prozessanalyse**
-_Januar 2023 – voraussichtlich Januar 2025 | MODUS Consult GmbH, Gütersloh, Deutschland_
+_August 2022 – voraussichtlich Januar 2025 | MODUS Consult GmbH, Gütersloh, Deutschland_
 
 - Schwerpunkte: Datenanalyse, Datenverarbeitung, Business Intelligence, Prozessoptimierung.
 
-### **IHK-zertifizierter Fachinformatiker für Daten- und Prozessanalyse**
-_Januar 2023 – voraussichtlich Januar 2025 | MODUS Consult GmbH, Gütersloh, Deutschland_
+### **Studium & Orientierungsphase**
+_Oktober 2019 –  August 2022 | Universität Paderborn_
+
+- Fachrichtung: Physik, Computer Engineering
+
+### **Abitur**
+_Juli 2007 – Juli 2019 | Gymnasium Lage_
 
 - Schwerpunkte: Datenanalyse, Datenverarbeitung, Business Intelligence, Prozessoptimierung.
 

@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="33%" src="https://media.licdn.com/dms/image/v2/C5603AQE4Ajy6TxSrrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646602598053?e=2147483647&v=beta&t=xo_hFIbMc3HFLHW21TzxeXKCMYagYeX06I5cUGAHRVE" style="border-radius: 2rem;">
+    <img width="33%" src="https://media.licdn.com/dms/image/v2/C5603AQE4Ajy6TxSrrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1646602598053?e=2147483647&v=beta&t=xo_hFIbMc3HFLHW21TzxeXKCMYagYeX06I5cUGAHRVE" style="border-radius: 2rem; box-shadow: 5px 5px 5px black ">
 </p>
 
 # Leon Wellmeier 
